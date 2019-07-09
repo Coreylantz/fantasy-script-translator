@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'davekregular';
+  src: url('/davek-webfont.bfd5bed2.woff2') format('woff2'),
+       url('/davek-webfont.83e3cd46.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.dwarf {
+  font-family: 'davekregular';
+  letter-spacing: 1px;
+}
+
+body {
+
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

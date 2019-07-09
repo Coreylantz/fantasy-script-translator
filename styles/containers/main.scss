@@ -1,0 +1,23 @@
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container,
+.results-container {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  select {
+    padding: 30px;
+  }
+}
+
+.results-container {
+  font-size: 2rem;
+}

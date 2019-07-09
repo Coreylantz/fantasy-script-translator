@@ -1,0 +1,27 @@
+@import './global/fonts.scss';
+
+@import './containers/main.scss';
+
+// Dwarvish/Giant/Gnomish/Goblin/Orc/Primordial
+.dwarvish {
+  font-family: 'davekregular';
+  letter-spacing: 1px;
+}
+
+// Elvish/Sylvan/Undercommon
+.elvish {
+  font-family: 'rellanicregular';
+  letter-spacing: 1px;
+}
+
+// Draconic
+.draconic {
+  font-family: 'iokharicregular';
+  letter-spacing: 1px;
+}
+
+// Abyssal/Infernal
+.infernal {
+  font-family: 'barazhadregular';
+  letter-spacing: 1px;
+}

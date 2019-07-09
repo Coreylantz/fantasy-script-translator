@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "davekregular";
+  src: url("/davek-webfont.bfd5bed2.woff2") format("woff2"), url("/davek-webfont.83e3cd46.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "barazhadregular";
+  src: url("/barazhad-webfont.72d1d99e.woff2") format("woff2"), url("/barazhad-webfont.5b7395df.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "iokharicregular";
+  src: url("/iokharic-webfont.b1aa4e75.woff2") format("woff2"), url("/iokharic-webfont.78b368be.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "rellanicregular";
+  src: url("/rellanic-webfont.6d0b6b12.woff2") format("woff2"), url("/rellanic-webfont.c768d41a.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container,
+.results-container {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.input-container select,
+.results-container select {
+  padding: 30px;
+}
+
+.results-container {
+  font-size: 2rem;
+}
+
+.dwarvish {
+  font-family: "davekregular";
+  letter-spacing: 1px;
+}
+
+.elvish {
+  font-family: "rellanicregular";
+  letter-spacing: 1px;
+}
+
+.draconic {
+  font-family: "iokharicregular";
+  letter-spacing: 1px;
+}
+
+.infernal {
+  font-family: "barazhadregular";
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=/fantasy-scripts.e31bb0bc.css.map */

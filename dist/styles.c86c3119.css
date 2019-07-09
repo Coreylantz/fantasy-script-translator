@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "davekregular";
+  src: url("/davek-webfont.512dca4a.woff2") format("woff2"), url("/davek-webfont.7723bced.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.dwarf {
+  font-family: "davekregular";
+  letter-spacing: 1px;
+  color: red;
+}
+
+/*# sourceMappingURL=/styles.c86c3119.css.map */
